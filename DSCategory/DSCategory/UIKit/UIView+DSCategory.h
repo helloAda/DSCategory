@@ -71,6 +71,12 @@
 @property (nonatomic) CGSize size;
 
 
+
+/**
+ find view's viewController
+
+ @return ViewController
+ */
 - (UIViewController *)ds_viewController;
 
 @end

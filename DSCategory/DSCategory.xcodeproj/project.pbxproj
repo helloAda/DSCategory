@@ -19,6 +19,7 @@
 		7757E08B1F55BDD500EE6A5C /* NSDictionary+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757E08A1F55BDD500EE6A5C /* NSDictionary+DSCategory.m */; };
 		7757E08E1F55BEB600EE6A5C /* NSArray+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757E08D1F55BEB600EE6A5C /* NSArray+DSCategory.m */; };
 		7757E0911F55BF5B00EE6A5C /* UIView+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757E0901F55BF5B00EE6A5C /* UIView+DSCategory.m */; };
+		777703BB1F613BD900508046 /* UIImage+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 777703BA1F613BD900508046 /* UIImage+DSCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		7757E08D1F55BEB600EE6A5C /* NSArray+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+DSCategory.m"; path = "DSCategory/Foundation/NSArray+DSCategory.m"; sourceTree = SOURCE_ROOT; };
 		7757E08F1F55BF5B00EE6A5C /* UIView+DSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCategory.h"; path = "DSCategory/UIKit/UIView+DSCategory.h"; sourceTree = SOURCE_ROOT; };
 		7757E0901F55BF5B00EE6A5C /* UIView+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCategory.m"; path = "DSCategory/UIKit/UIView+DSCategory.m"; sourceTree = SOURCE_ROOT; };
+		777703B91F613BD900508046 /* UIImage+DSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+DSCategory.h"; path = "DSCategory/UIKit/UIImage+DSCategory.h"; sourceTree = SOURCE_ROOT; };
+		777703BA1F613BD900508046 /* UIImage+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DSCategory.m"; path = "DSCategory/UIKit/UIImage+DSCategory.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +176,8 @@
 			children = (
 				7757E08F1F55BF5B00EE6A5C /* UIView+DSCategory.h */,
 				7757E0901F55BF5B00EE6A5C /* UIView+DSCategory.m */,
+				777703B91F613BD900508046 /* UIImage+DSCategory.h */,
+				777703BA1F613BD900508046 /* UIImage+DSCategory.m */,
 			);
 			name = UIKit;
 			path = Category/UIKit;
@@ -314,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777703BB1F613BD900508046 /* UIImage+DSCategory.m in Sources */,
 				7757E0881F55942600EE6A5C /* NSString+DSCategory.m in Sources */,
 				7757E08E1F55BEB600EE6A5C /* NSArray+DSCategory.m in Sources */,
 				7757E0581F5590B300EE6A5C /* ViewController.m in Sources */,
@@ -560,6 +566,7 @@
 				7757E07C1F5590B300EE6A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7757E07D1F5590B300EE6A5C /* Build configuration list for PBXNativeTarget "DSCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +575,7 @@
 				7757E07F1F5590B300EE6A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7757E0801F5590B300EE6A5C /* Build configuration list for PBXNativeTarget "DSCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +584,7 @@
 				7757E0821F5590B300EE6A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
