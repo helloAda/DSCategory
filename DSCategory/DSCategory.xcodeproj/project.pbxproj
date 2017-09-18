@@ -19,6 +19,8 @@
 		7757E08B1F55BDD500EE6A5C /* NSDictionary+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757E08A1F55BDD500EE6A5C /* NSDictionary+DSCategory.m */; };
 		7757E08E1F55BEB600EE6A5C /* NSArray+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757E08D1F55BEB600EE6A5C /* NSArray+DSCategory.m */; };
 		7757E0911F55BF5B00EE6A5C /* UIView+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757E0901F55BF5B00EE6A5C /* UIView+DSCategory.m */; };
+		777603301F7018AC002C527E /* NSDate+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7776032F1F7018AC002C527E /* NSDate+DSCategory.m */; };
+		777603331F7018CC002C527E /* NSMutableAttributedString+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 777603321F7018CC002C527E /* NSMutableAttributedString+DSCategory.m */; };
 		777703BB1F613BD900508046 /* UIImage+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 777703BA1F613BD900508046 /* UIImage+DSCategory.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,10 @@
 		7757E08D1F55BEB600EE6A5C /* NSArray+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+DSCategory.m"; path = "DSCategory/Foundation/NSArray+DSCategory.m"; sourceTree = SOURCE_ROOT; };
 		7757E08F1F55BF5B00EE6A5C /* UIView+DSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DSCategory.h"; path = "DSCategory/UIKit/UIView+DSCategory.h"; sourceTree = SOURCE_ROOT; };
 		7757E0901F55BF5B00EE6A5C /* UIView+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DSCategory.m"; path = "DSCategory/UIKit/UIView+DSCategory.m"; sourceTree = SOURCE_ROOT; };
+		7776032E1F7018AC002C527E /* NSDate+DSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+DSCategory.h"; path = "../../../../../../../../../Volumes/HELLOADA/LilanzIntelligent/LilanzIntelligent/Category/NSDate+DSCategory.h"; sourceTree = "<group>"; };
+		7776032F1F7018AC002C527E /* NSDate+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DSCategory.m"; path = "../../../../../../../../../Volumes/HELLOADA/LilanzIntelligent/LilanzIntelligent/Category/NSDate+DSCategory.m"; sourceTree = "<group>"; };
+		777603311F7018CC002C527E /* NSMutableAttributedString+DSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+DSCategory.h"; path = "../../../../../../../../../Volumes/HELLOADA/LilanzIntelligent/LilanzIntelligent/Category/NSMutableAttributedString+DSCategory.h"; sourceTree = "<group>"; };
+		777603321F7018CC002C527E /* NSMutableAttributedString+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+DSCategory.m"; path = "../../../../../../../../../Volumes/HELLOADA/LilanzIntelligent/LilanzIntelligent/Category/NSMutableAttributedString+DSCategory.m"; sourceTree = "<group>"; };
 		777703B91F613BD900508046 /* UIImage+DSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+DSCategory.h"; path = "DSCategory/UIKit/UIImage+DSCategory.h"; sourceTree = SOURCE_ROOT; };
 		777703BA1F613BD900508046 /* UIImage+DSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DSCategory.m"; path = "DSCategory/UIKit/UIImage+DSCategory.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -160,6 +166,10 @@
 		7757E0841F55928000EE6A5C /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				7776032E1F7018AC002C527E /* NSDate+DSCategory.h */,
+				7776032F1F7018AC002C527E /* NSDate+DSCategory.m */,
+				777603311F7018CC002C527E /* NSMutableAttributedString+DSCategory.h */,
+				777603321F7018CC002C527E /* NSMutableAttributedString+DSCategory.m */,
 				7757E0861F55942600EE6A5C /* NSString+DSCategory.h */,
 				7757E0871F55942600EE6A5C /* NSString+DSCategory.m */,
 				7757E0891F55BDD500EE6A5C /* NSDictionary+DSCategory.h */,
@@ -319,6 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777603301F7018AC002C527E /* NSDate+DSCategory.m in Sources */,
+				777603331F7018CC002C527E /* NSMutableAttributedString+DSCategory.m in Sources */,
 				777703BB1F613BD900508046 /* UIImage+DSCategory.m in Sources */,
 				7757E0881F55942600EE6A5C /* NSString+DSCategory.m in Sources */,
 				7757E08E1F55BEB600EE6A5C /* NSArray+DSCategory.m in Sources */,
