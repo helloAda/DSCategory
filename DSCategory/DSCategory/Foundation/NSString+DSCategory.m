@@ -39,4 +39,19 @@
     CGRect rect = [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:attr context:nil];
     return rect.size;
 }
+
+- (NSString *)stringByReversed{
+    uint64_t  i = 0;
+    uint64_t  j = self.length - 1;
+    unichar *characters = malloc(sizeof([self characterAtIndex:0]) * self.length);
+    while (i < j) {
+        characters[j] = [self characterAtIndex:i];
+        characters[i] = [self characterAtIndex:j];
+        i ++;
+        j --;
+    }
+    if(i == j)
+        characters[i] = [self characterAtIndex:i];
+    return [NSString stringWithCharacters:characters length:self.length];
+}
 @end

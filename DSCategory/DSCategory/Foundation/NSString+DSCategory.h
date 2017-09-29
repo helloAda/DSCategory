@@ -27,5 +27,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (CGSize)ds_sizeForFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBeakMode;
 
+
+
+//字符串反转
+- (NSString *)stringByReversed;
+
 @end
 NS_ASSUME_NONNULL_END
