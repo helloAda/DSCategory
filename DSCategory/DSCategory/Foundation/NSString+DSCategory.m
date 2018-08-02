@@ -40,7 +40,7 @@
     return rect.size;
 }
 
-- (NSString *)stringByReversed{
+- (NSString *)ds_stringByReversed{
     uint64_t  i = 0;
     uint64_t  j = self.length - 1;
     unichar *characters = malloc(sizeof([self characterAtIndex:0]) * self.length);
@@ -53,5 +53,27 @@
     if(i == j)
         characters[i] = [self characterAtIndex:i];
     return [NSString stringWithCharacters:characters length:self.length];
+}
+
+
+- (BOOL)ds_deptNumInputShouldNumber
+{
+    NSString *regex =@"[0-9]*";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
+    if ([pred evaluateWithObject:self]) {
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL)ds_validateEmail
+{
+    
+    NSString *emailRegex =@"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    
+    return [emailTest evaluateWithObject:self];
+    
 }
 @end

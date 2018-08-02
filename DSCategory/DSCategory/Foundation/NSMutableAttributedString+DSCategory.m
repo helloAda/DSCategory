@@ -10,13 +10,13 @@
 
 @implementation NSMutableAttributedString (DSCategory)
 
-- (NSMutableAttributedString *)initWithString:(NSString *)str color:(UIColor *)color range:(NSRange)range {
+- (NSMutableAttributedString *)ds_initWithString:(NSString *)str color:(UIColor *)color range:(NSRange)range {
     NSMutableAttributedString *attr = [[NSMutableAttributedString alloc] initWithString:str];
     [attr addAttribute:NSForegroundColorAttributeName value:color range:range];
     return attr;
 }
 
-- (NSMutableAttributedString *)initWithString:(NSString *)str color:(UIColor *)color font:(UIFont *)font range:(NSRange)range {
+- (NSMutableAttributedString *)ds_initWithString:(NSString *)str color:(UIColor *)color font:(UIFont *)font range:(NSRange)range {
     NSMutableAttributedString *attr = [[NSMutableAttributedString alloc] initWithString:str];
     [attr addAttribute:NSForegroundColorAttributeName value:color range:range];
     [attr addAttribute:NSFontAttributeName value:font range:range];

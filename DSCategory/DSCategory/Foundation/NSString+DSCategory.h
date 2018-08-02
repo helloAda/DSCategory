@@ -16,7 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (nullable NSString *)ds_md5String;
 
-
 /**
  Computing the string size
 
@@ -27,10 +26,27 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (CGSize)ds_sizeForFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBeakMode;
 
+/**
+ 字符串反转
+
+ @return 反转后的字符串
+ */
+- (NSString *)ds_stringByReversed;
 
 
-//字符串反转
-- (NSString *)stringByReversed;
+/**
+ 检测是否是数字
 
+ @return 是否数字
+ */
+- (BOOL)ds_deptNumInputShouldNumber;
+
+
+/**
+ 检测是否是邮箱
+
+ @return 是否邮箱
+ */
+- (BOOL)ds_validateEmail;
 @end
 NS_ASSUME_NONNULL_END

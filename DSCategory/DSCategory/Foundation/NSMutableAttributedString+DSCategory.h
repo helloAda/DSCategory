@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @interface NSMutableAttributedString (DSCategory)
 
 
@@ -19,7 +20,7 @@
  @param range 范围
  @return NSMutableAttributedString
  */
-- (NSMutableAttributedString *)initWithString:(NSString *)str color:(UIColor *)color range:(NSRange)range;
+- (NSMutableAttributedString *)ds_initWithString:(NSString *)str color:(UIColor *)color range:(NSRange)range;
 /**
  设置不同颜色,大小
  
@@ -29,5 +30,5 @@
  @param font  大小
  @return NSMutableAttributedString
  */
-- (NSMutableAttributedString *)initWithString:(NSString *)str color:(UIColor *)color font:(UIFont *)font range:(NSRange)range;
+- (NSMutableAttributedString *)ds_initWithString:(NSString *)str color:(UIColor *)color font:(UIFont *)font range:(NSRange)range;
 @end
